@@ -9,7 +9,7 @@ Test de webhooks
     """,
 
     'author': "yo",
-    'website': "",
+    'website': "gurt",
 
     'category': 'Uncategorized',
     'version': '0.1',

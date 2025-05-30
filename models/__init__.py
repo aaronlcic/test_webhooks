@@ -1,3 +1,3 @@
 # -*- coding: utf-8 -*-
 
-from models import remitente
+from . import remitente
