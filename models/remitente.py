@@ -19,7 +19,7 @@ class ResPartner(models.Model):
             'email': partner.email,
         }
 
-        webhook_url = "https://idk.com/registroOdoo"
+        webhook_url = "https://odoo-test-ws-444557042058.europe-west1.run.app"
 
         try:
             response = requests.post(webhook_url, json=payload, timeout=10)
