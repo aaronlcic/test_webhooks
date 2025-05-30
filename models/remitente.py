@@ -10,6 +10,7 @@ class ResPartner(models.Model):
 
     @api.model
     def create(self, vals):
+        _logger.info("Create llamado con los valores: %s", vals)
         partner = super(ResPartner, self).create(vals)
         nombre = partner.name.split(' ')
 
